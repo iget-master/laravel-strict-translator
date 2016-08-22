@@ -16,5 +16,6 @@
             "name": "Elias Soares",
             "email": "esoares@iget.com.br"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
