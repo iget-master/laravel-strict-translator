@@ -2,7 +2,7 @@
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
 
-class TranslationServiceProvider extends BaseTranslationServiceProvider {
+class StrictTranslatorServiceProvider extends BaseTranslationServiceProvider {
     /**
      * Register the service provider.
      *
