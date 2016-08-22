@@ -21,5 +21,7 @@ class Translator extends LaravelTranslator
         if ($translation == $key) {
             throw new TranslationMissingException("Translation key ${key} not found.");
         }
+
+        return $translation;
     }
 }
