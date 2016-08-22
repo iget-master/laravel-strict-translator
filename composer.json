@@ -1,0 +1,20 @@
+{
+    "name": "iget-master/laravel-strict-translator",
+    "description": "Enable strict mode for default Laravel Translator",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.x|5.1.x|5.2.x|5.3.x",
+        "illuminate/translation": "5.0.x|5.1.x|5.2.x|5.3.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "IgetMaster\\StrictTranslator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elias Soares",
+            "email": "esoares@iget.com.br"
+        }
+    ]
+}
